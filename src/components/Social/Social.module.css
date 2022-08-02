@@ -1,0 +1,45 @@
+.redText {
+    color: #BA0C2F;
+}
+
+.footerHeader {
+    text-align: left;
+    width: 60%;
+    margin: auto;
+    letter-spacing: 3px;
+}
+
+.boldText {
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.icon {
+    color: white;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+}
+.iconLink{
+    background: #BA0C2F;
+    border-radius: 50%;
+    padding: 30px;
+}
+.footerSocial {
+    display: flex;
+    width: 100%;
+    border: none !important;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+.liContainer {
+    display: flex;
+}
+
+.footerBold{
+    font-weight: bold;
+}
+.grayText{
+    color: gray;
+}

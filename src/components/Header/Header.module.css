@@ -1,0 +1,62 @@
+.logo {
+    height: 80px;
+
+}
+
+ul {
+    display: flex;
+    list-style: none;
+}
+
+ul div {
+    padding: 0 10%;
+}
+
+.header {
+    display: flex;
+    width: 60%;
+    justify-content: space-between;
+    margin: auto;
+    font-weight: 500;
+    color: gray;
+    align-items: center;
+}
+
+.headerWrapper {
+    width: 100%;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 4;
+
+}
+.li{
+    border-bottom: 2px solid transparent;
+}
+.navItem:hover .li {
+    border-bottom: 2px solid #BA0C2F;
+}
+
+.navItem:hover .subList {
+    visibility: visible;
+    opacity: 1;
+}
+
+
+.subList {
+    background-color: #333;
+    color: #9d9d9d;
+    position: absolute;
+    z-index: 2;
+    text-align: left;
+    padding: 10px;
+    width: 10%;
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s, opacity 0.5s linear;
+}
+
+.subList li {
+    padding: 2px;
+}
