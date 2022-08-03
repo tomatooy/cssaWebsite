@@ -43,3 +43,9 @@
 .grayText{
     color: gray;
 }
+
+@media screen and (max-width: 600px) {
+   .socialMain{
+    display: none;
+   } 
+  }

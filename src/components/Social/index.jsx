@@ -4,7 +4,7 @@ import SocialElement from './SocialElement'
 
 export default function Social() {
   return (
-    <div>
+    <div className={styles.socialMain}>
       <div className={styles.footerHeader}>
         <h3 className={styles.redText}>
           Keep in touch

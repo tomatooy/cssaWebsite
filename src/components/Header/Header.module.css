@@ -60,3 +60,17 @@ ul div {
 .subList li {
     padding: 2px;
 }
+.navbar .icon{
+    color: #9d9d9d;
+    display: none;
+}
+@media screen and (max-width: 600px) {
+    .header{
+        width: 90%;
+    }
+    .navbar .navItem{display: none;}
+    .navbar .icon{
+      float: right;
+      display: block;
+    }
+  }

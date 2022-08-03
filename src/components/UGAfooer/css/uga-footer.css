@@ -225,6 +225,7 @@ body {
           display: inline; } }
     .ugafooter__social-link {
       color: rgba(255, 255, 255, 0.6);
+      padding:2px;
       text-decoration: none;
       -webkit-transition: color 100ms ease-in;
       transition: color 100ms ease-in; }
