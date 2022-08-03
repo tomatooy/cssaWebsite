@@ -68,6 +68,10 @@ ul div {
     .header{
         width: 90%;
     }
+    .logo{
+        float: left;
+        
+    }
     .navbar .navItem{display: none;}
     .navbar .icon{
       float: right;
