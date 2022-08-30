@@ -23,7 +23,6 @@
     color: gray;
     align-items: center;
     overflow: hidden;
-    height: min-content;
 }
 
 .headerWrapper {
@@ -33,7 +32,6 @@
     top: 0;
     background-color: white;
     z-index: 2;
-
 }
 
 .li {
@@ -85,9 +83,9 @@
 @media screen and (max-width: 600px) {
     .header {
         width: 100%;
-        overflow:initial;
-        position: absolute;
+        overflow:hidden;
         background-color: white;
+        height:80px;
     }
 
     .logo {
@@ -98,7 +96,6 @@
         padding:0;
     }
    
-
     .navItem {
         float: none;
         display: inline-block;
@@ -117,4 +114,25 @@
         top:30px;
         display: block;
     }
+
+    .navNotActive{
+        display: none;
+    }
+    .navActive{
+        display: block;
+        position:absolute;
+        z-index: 3;
+        top:80px;
+        width: 100%;
+        overflow: hidden;
+        background-color:white;
+    }
+    .navItem:hover .subList{
+        display: block;
+        position: relative;
+    }
+    .subList{
+        top:30px;
+    }
+    
 }

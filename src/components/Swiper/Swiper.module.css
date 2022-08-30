@@ -22,3 +22,10 @@ img{
     width: 100%;
     margin: auto;
 }
+
+@media screen and (max-width: 600px) {
+    .swiperWrapper img{
+        max-height: 60vh;
+    }    
+
+}
