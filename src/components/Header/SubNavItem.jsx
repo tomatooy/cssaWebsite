@@ -10,5 +10,5 @@ export default function SubNavItem(props) {
     ).map(element => {
         return <li>{element}</li>
     })
-    return (<div className={styles.subList}>{subList}</div>)
+    return <ul className={styles.subList}>{subList}</ul>;
 }

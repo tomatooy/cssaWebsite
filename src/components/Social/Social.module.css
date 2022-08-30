@@ -31,6 +31,7 @@
     border: none !important;
     justify-content: space-between;
     padding: 20px 0;
+    list-style: none;
 }
 
 .liContainer {
@@ -45,7 +46,8 @@
 }
 
 @media screen and (max-width: 600px) {
-   .socialMain{
-    display: none;
+   .footerSocial{
+    display: block;
+    float:none;
    } 
   }

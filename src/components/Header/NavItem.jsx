@@ -8,11 +8,10 @@ export default function NavItem() {
     const [isShownHoverContent, setHover] = useState(-1);
     const list = elements.map((element, index) => {
         return (
-            <div className={styles.navItem} onMouseEnter={() => setHover(index)} onMouseLeave={() => setHover(-1)}>
-                <li className={styles.li}>{element}
-                </li>
+            <li className={styles.navItem} onMouseEnter={() => setHover(index)} onMouseLeave={() => setHover(-1)}>
+               {element}
                 <SubNavItem category={index} Hover={isShownHoverContent} />
-            </div>)
+            </li>)
     })
     return list
 }
