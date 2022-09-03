@@ -19,7 +19,6 @@
 }
 
 .icon {
-    color: white;
     display:block;
     margin: auto;
 }
@@ -44,6 +43,7 @@
 
 .liContainer {
     display: flex;
+    margin: 0.5em 0;
 }
 
 .footerBold{
@@ -64,12 +64,14 @@
     display: block;
     float:none;
     width:80%;
+    padding:0;
    } 
-   .liContainer{
-       justify-content: space-between;
-   }
    .socialHeader{
        margin: 0;  
+   }
+   .socialText{
+       text-align:start;
+       margin-left: 3em;
    }
    .socialHeader h1,h3{
        margin: 0;
