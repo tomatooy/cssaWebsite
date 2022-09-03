@@ -12,10 +12,10 @@ export default function Social() {
         <h1 className={styles.boldText}>
           Connect with us
         </h1>
-        <ul className={styles.footerSocial}>
+      </div>
+      <ul className={styles.footerSocial}>
           <SocialElement/>
         </ul>
-      </div>
     </div>
   )
 }
